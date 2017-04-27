@@ -102,7 +102,7 @@ if [[ ${TRAVIS:-} ]]; then
     export SAUCE_ACCESS_KEY=9b988f434ff8-fbca-8aa4-4ae3-35442987
   fi
 
-  setEnvVar BROWSER_STACK_USERNAME angularteam1
+  setEnvVar BROWSER_STACK_USERNAME sauravkothari2
   # not using use setEnvVar so that we don't print the key
   export BROWSER_STACK_ACCESS_KEY=BWCd4SynLzdDcv8xtzsB
   setEnvVar CHROME_BIN ${HOME}/.chrome/chromium/chrome-linux/chrome
