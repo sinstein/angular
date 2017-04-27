@@ -104,7 +104,7 @@ if [[ ${TRAVIS:-} ]]; then
 
   setEnvVar BROWSER_STACK_USERNAME sauravkothari2
   # not using use setEnvVar so that we don't print the key
-  export BROWSER_STACK_ACCESS_KEY=BWCd4SynLzdDcv8xtzsB
+  export BROWSER_STACK_ACCESS_KEY=XVBzv9SHzyxayo1Csxbs
   setEnvVar CHROME_BIN ${HOME}/.chrome/chromium/chrome-linux/chrome
   setEnvVar BROWSER_PROVIDER_READY_FILE /tmp/angular-build/browser-provider-tunnel-init.lock
 fi
