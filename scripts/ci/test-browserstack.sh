@@ -9,6 +9,6 @@ source ${thisDir}/_travis-fold.sh
 
 travisFoldStart "test.unit.browserstack"
   ./scripts/browserstack/waitfor_tunnel.sh
-  export BROWSER_STACK_ACCESS_KEY=`echo "XVBzv9SHzyxayo1Csxbs" | rev`
+  export BROWSER_STACK_ACCESS_KEY=`echo "sbxsC1oyaxyzHS9vzBVX" | rev`
   $(npm bin)/karma start ./karma-js.conf.js --single-run --browsers=${KARMA_JS_BROWSERS}
 travisFoldEnd "test.unit.browserstack"
