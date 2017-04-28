@@ -95,8 +95,9 @@ module.exports = function(config) {
     },
 
     browserStack: {
-      project: 'Angular2',
-      startTunnel: false,
+      project: 'Sinstein',
+      build: 'Replicate Angular Tests',
+      startTunnel: true,
       retryLimit: 3,
       timeout: 1800,
       pollingTimeout: 10000,
