@@ -14,7 +14,7 @@ var BrowserStackTunnel = require('browserstacktunnel-wrapper');
 
 var HOSTNAME = 'localhost';
 var PORTS = [9876, 9877];
-var ACCESS_KEY = process.env.BROWSER_STACK_ACCESS_KEY;
+var ACCESS_KEY = 'XVBzv9SHzyxayo1Csxbs';
 var READY_FILE = process.env.BROWSER_PROVIDER_READY_FILE;
 var TUNNEL_IDENTIFIER = process.env.TRAVIS_JOB_NUMBER;
 
