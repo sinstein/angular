@@ -101,6 +101,7 @@ module.exports = function(config) {
       retryLimit: 3,
       timeout: 1800,
       pollingTimeout: 10000,
+      url: 'http://localhost:3000'
     },
 
     browsers: ['Chrome'],
